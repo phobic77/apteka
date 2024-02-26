@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header>div>a {
+    padding: 20px;
+    text-decoration: none;
+    font: 20px, "Muller", cursive;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+select,
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10.5px 16px;
+    gap: 5px;
+}
+
+.section {
+    margin-top: 20px;
+    background-image: url(./image\ 28.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    height: 1100px;
+}
+
+.btn3 {
+    border-radius: 1px;
+    background: linear-gradient(91.87deg, #70984B 7.3%, #F7D44C 93.15%);
+    color: azure;
+    height: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px 60px;
+}
+
+.div3 {
+    border: 10px solid rgba(202, 224, 149, 1);
+    width: 877px;
+    display: flex;
+    justify-content: center;
+}
+
+.div3>h2 {
+    position: absolute;
+    left: 150px;
+    font-size: 90px;
+    top: 150px;
+    transform: rotate(270deg);
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div3>img {
+    margin-left: 150px;
+}
+
+.bg_img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.div5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>h1 {
+    margin-left: 45%;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+nav {
+    margin-top: 400px;
+    background-image: url(./image\ 26.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.div6>h2 {
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div6>p {
+    height: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div6>img {
+    margin-top: 10px;
+}
+
+.div6>button {
+    margin-top: 30px;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.nav1 {
+    background-image: url(./Фон\ 1.png);
+    margin-top: -1px;
+    height: 774px;
+}
+
+.div8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 340px;
+}
+.btn_part{
+    background-image: url(./Каталог\ 1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.btn4 {
+    width: 160px;
+    height: 30px;
+    border-radius: 3px;
+    background: linear-gradient(91.87deg, #ED8F7B 7.3%, #AB95C7 93.15%);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    position: absolute; 
+    margin: 20%;
+    margin-left: 600px;
+}
